@@ -39,11 +39,12 @@ main {
 }
 
 .robo {
-    height: 110%;
+    height: 90%;
     z-index: 1;
     position: absolute;
     left: -20%;
-    top: -5%;
+    top: 10%;
+    padding: 0;
 }
 
 .titulo {
@@ -231,4 +232,85 @@ main {
         height: 80vh;
         margin: 10vh auto;
     }
+}
+
+.escolhaCorRobo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.escolhaCorRobo h2{
+    font-size: 2.5em;
+}
+
+.dropDown-azul {
+    padding: .5em;
+    margin: .5em;
+    width: 6em;
+    height: 2em;
+    background-color: #3490DE;
+
+    border: none;
+    appearance: none;
+
+}
+.dropDown-amarelo {
+    padding: .5em;
+    margin: .5em;
+    width: 6em;
+    height: 2em;
+    background-color: #F5E8B7;
+
+    border: none;
+    appearance: none;
+
+}
+.dropDown-branco {
+    padding: .5em;
+    margin: .5em;
+    width: 6em;
+    height: 2em;
+    background-color: #D8E9F0;
+    color: #454553;
+
+    border: none;
+    appearance: none;
+
+}
+.dropDown-preto {
+    padding: .5em;
+    margin: .5em;
+    width: 6em;
+    height: 2em;
+    background-color: #454553;
+    color: #D8E9F0;
+
+    border: none;
+    appearance: none;
+
+}
+.dropDown-rosa {
+    padding: .5em;
+    margin: .5em;
+    width: 6em;
+    height: 2em;
+    background-color: #ED9ED6;
+
+    border: none;
+    appearance: none;
+
+}
+.dropDown-vermelho {
+    padding: .5em;
+    margin: .5em;
+    width: 6em;
+    height: 2em;
+    background-color: #EA5959;
+    color: #D8E9F0;
+
+    border: none;
+    appearance: none;
+
 }
